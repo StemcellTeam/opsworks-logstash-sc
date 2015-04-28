@@ -2,6 +2,8 @@
 
 This set of cookbooks began as a fork of the [Springtest](https://github.com/springtest/opsworks-logstash) project, but has been updated to use "official" cookbooks (with customized "wrapper" cookbooks where necessary), rather than creating forked dependencies.
 
+SC notes: we've forked this in order to resolve issues with the Logstash recipe. 
+
 Specifically:
 
 * **kibana** -> uses "vanilla" `kibana` cookbook, with wrapping done by an `opsworks-kibana` recipe
